@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
 
-const Navbar = () => (
+const Navbar = () => {
+  const [toggle, setToggle] = useState(false);
+  return(
+
   <nav className="w-full flex justify-between py-6 navbar items-center">
     <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
     <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -12,7 +15,12 @@ const Navbar = () => (
         </li>
       ))}
     </ul>
+    <  div className='sm:hidden flex flex-1 justify-end  items-center'>
+        <img  src={toggle? close :menu}
+        className='w-[28px] h-[28px] object-contain '/>    </div>
   </nav>
-);
+  
+)
+} 
 
 export default Navbar;
