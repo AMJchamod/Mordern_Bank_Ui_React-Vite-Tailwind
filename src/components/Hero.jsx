@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../style';
 import { discount, robot } from '../assets';
+import Getstared from './Getstared';
+
 
 
 const Hero = () => (                                          //i just use  custom styles in here
@@ -19,7 +21,10 @@ const Hero = () => (                                          //i just use  cust
         <h1 className='flex-1 font-poppins font-semibold ss:text-[72px]  text-[52px] text-white ss:leading-[100px] leading-[75px]'>The NEXT<br className='sm:block hidden' /> {""} <span className='text-gradient'>Generation</span><br /> Payment Method</h1>
       </div>
     </div>
+    <Getstared/>
   </section>
+  
+    
 )
 
 export default Hero
