@@ -142,3 +142,8 @@
 .test{
   color:red;
 }
+.getstartcustomaduset{
+  margin-left: auto; /* Pushes the component to the right */
+  margin-top: 20px
+       
+}
