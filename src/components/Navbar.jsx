@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { close, logo, menu } from '../assets';  
-import { navLinks } from '../constants';       
+import { navLinks } from '../constants';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-
+  
   return (
-    <nav className="w-full flex justify-between items-center py-6 relative navbar">
+    <nav className="w-full flex justify-between items-center py-6 navbar">
+      {/* Logo */}
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
       
       {/* Desktop Navigation */}
@@ -40,7 +41,11 @@ const Navbar = () => {
         id="mobile-menu"
         className={`${
           toggle ? 'flex' : 'hidden'
-        } flex-col p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[200px] rounded-xl transition-all duration-300 ease-in-out`}
+        } flex-col p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[200px] rounded-xl z-50 shadow-lg transition-all duration-300 ease-in-out`}
+        style={{
+          top: toggle ? '64px' : '0', // Adjust the top position when toggled
+          transition: 'top 0.3s ease-out', // Smooth transition for top property
+        }}
       >
         <ul className="list-none flex flex-col justify-start items-start flex-1">
           {navLinks.map((nav, index) => (
