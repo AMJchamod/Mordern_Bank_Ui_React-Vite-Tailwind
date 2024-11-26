@@ -26,15 +26,12 @@ const Hero = () => (
           Payment Method
         </h1>
         
-        <div className='hidden sm:block ml-5'>
+        <div className='sm:block ml-5'>
           <Getstared />
         </div>
       </div>
 
-      {/* Get Started Button for Mobile */}
-      <div className="mt-4 md:hidden">
-        <Getstared />
-      </div>
+  
 
       {/* Description */}
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -44,12 +41,10 @@ const Hero = () => (
     </div>
 
     {/* Right Section with Image */}
-    <div className='relative mt-10 md:mt-0'>
-      <img src={robot} alt='robot' className="w-full h-auto relative z-[5]" />
-      <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'></div>
-      <div className='absolute z-[1] w-[80%] h-[80%] top-0 pink__gradient rounded-full bottom-40 white__gradient'></div>
-      <div className='absolute z-[0] w-[50%] h-[50%] top-0 pink__gradient right-20 bottom-20 blue__gradient'></div>
-    </div>
+    <div className='relative mt-10 sm:mt-1 md:mt-0'>
+  <img src={robot} alt='robot' className="w-full h-auto relative z-[5]" />
+  
+  </div>
   </section>
 );
 
