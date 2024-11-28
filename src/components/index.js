@@ -6,10 +6,11 @@ import Clients from "./Clients";
 import CTA from "./CTA";
 
 import Footer from "./Footer";
-
+import Stats from "./Stats";
 import Hero from "./Hero";
 
 export {
+ 
   Navbar,
   Billing,
   CardDeal,
@@ -18,6 +19,6 @@ export {
   CTA,
   
   Footer,
- 
+  Stats,
   Hero,
 };
