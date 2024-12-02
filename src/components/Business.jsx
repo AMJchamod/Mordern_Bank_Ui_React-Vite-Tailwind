@@ -21,7 +21,7 @@ const Business = () => (
   <section id='features' className={layout.section} >
     <div className={`{layout.sectionInfo} md:pl-12 `}>
       <h2 className={styles.heading2}> You do the business,<br className='sm:block hidden' />Well handle the money</h2>
-      <p className={`${styles.paragraph}max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by<br/> building credit earning rewards and saving moneoy.<br/>But with hunderds of credit cards on the market</p>
+      <p className={`${styles.paragraph}max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by<br/> building credit earning rewards and saving money.<br/>But with hunderds of credit cards on the market</p>
       <Button type="button" style="mt-10"></Button>
     </div>
     <div className={` felx-col md:pl-1 `}>
