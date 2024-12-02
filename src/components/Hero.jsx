@@ -41,8 +41,8 @@ const Hero = () => (
     </div>
 
     {/* Right Section with Image */}
-    <div className='relative mt-10 sm:mt-1 md:mt-0'>
-  <img src={robot} alt='robot' className="w-full h-auto relative z-[5]" />
+    <div className='relative mt-10 sm:mt-1 md:mt-0  '>
+  <img src={robot} alt='robot' className="md:h-96 md:w-96  relative  z-[5] md:mt-16 md:mr-6" />
   
   </div>
   </section>

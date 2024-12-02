@@ -8,9 +8,11 @@ import CTA from "./CTA";
 import Footer from "./Footer";
 import Stats from "./Stats";
 import Hero from "./Hero";
+import Business from "./Business";
+
 
 export {
- 
+  Business,
   Navbar,
   Billing,
   CardDeal,

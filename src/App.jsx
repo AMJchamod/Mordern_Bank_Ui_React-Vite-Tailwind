@@ -1,17 +1,18 @@
 import React from 'react'
 import styles from './style';
 import {
-   Stats,
+  Stats,
   Navbar,
-  Billing,
+  Business,
   CardDeal,
- 
+
   Clients,
   CTA,
-  
+
   Footer,
- 
+
   Hero,
+  
 } from './components';
 
 
@@ -26,25 +27,22 @@ const App = () => (
     </div>
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidt}font-size: clamp(1rem, 2vw, 1.5rem) `}>
-       
-          <Hero/>
-  
+        <Hero />
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
-        <Stats/>
-        
-    
-       </div>
-     
+    <div className={`bg-primary ${styles.flexStart} md:pr-16`}>
+      <Stats />
       
-        <CardDeal/>
-       
-        <Clients />
-        <CTA/>
-        <Footer />
+    </div>
+    <div className={`bg-primary   `}>
+      <Business/>
+    </div>
+    <CardDeal />
+    <Clients />
+    <CTA />
+    <Footer />
 
-   
+
   </>
 
 );
