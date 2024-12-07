@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../style'
+import { feedback } from '../constants'
+import Feedbackcard from './Feedbackcard'
 
 const Testimonials =()=>(
    <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
@@ -8,7 +10,14 @@ const Testimonials =()=>(
       <h1 className={styles.heading2}>What people are <br className='sm:block hidden'/>saying about us</h1>
       <div className='w-full md:mt-0 '>
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>Everything  you need to acfcept card payment and grow your business anywhere  on the planet</p>
+
       </div>
+    </div>
+    <div className=' flex flex-wrap sm:justify-start  justify-center w-full  relative z-[1]'>
+      {feedback.map((card)=>(
+       < Feedbackcard  key={card.id} {...card}/>
+      ))}
+   
     </div>
    </section>
 )

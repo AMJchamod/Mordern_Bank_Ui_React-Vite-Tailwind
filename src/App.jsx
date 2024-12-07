@@ -1,12 +1,14 @@
 import React from 'react'
 import styles from './style';
+import './index.css';
 import {
+  Feedbackcard,
   Stats,
   Navbar,
   Business,
   CardDeal,
   Billing,
- Testimonials,
+  Testimonials,
   Clients,
   CTA,
 

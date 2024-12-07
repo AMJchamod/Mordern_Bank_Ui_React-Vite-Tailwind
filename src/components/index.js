@@ -10,9 +10,11 @@ import Stats from "./Stats";
 import Hero from "./Hero";
 import Business from "./Business";
 import Testimonials from "./Testimonials";
+import Feedbackcard from "./Feedbackcard";
 
 
 export {
+  Feedbackcard,
   Business,
   Navbar,
   Billing,
