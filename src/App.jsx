@@ -49,8 +49,10 @@ const App = () => (
     <div className={`bg-primary   `}>
     <Testimonials />
     </div>
-   
+    <div className={`bg-primary pb-8 `}>
     <Clients />
+    </div>
+   
     <CTA />
     <Footer />
 
