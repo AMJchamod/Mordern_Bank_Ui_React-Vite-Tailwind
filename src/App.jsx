@@ -40,7 +40,10 @@ const App = () => (
     <div className={`bg-primary   `}>
       <Billing/>
     </div>
+    <div className={`bg-primary   `}>
     <CardDeal />
+    </div>
+   
     <Clients />
     <CTA />
     <Footer />
