@@ -6,6 +6,7 @@ import {
   Business,
   CardDeal,
   Billing,
+ Testimonials,
   Clients,
   CTA,
 
@@ -42,6 +43,9 @@ const App = () => (
     </div>
     <div className={`bg-primary   `}>
     <CardDeal />
+    </div>
+    <div className={`bg-primary   `}>
+    <Testimonials />
     </div>
    
     <Clients />
