@@ -29,8 +29,9 @@ const Footer = () =>(
           </div>
       ))}
     </div>
+    <div><h3 className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite md:mt-14  sm:text-sm sm:leading-5"'>@@@Crafted with passion and precision by Janidu Chamod@@@</h3></div>
   </section>
 )
-
+ 
 
 export default Footer
