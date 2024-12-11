@@ -56,7 +56,10 @@ const App = () => (
     <CTA />
     </div>
  
-
+    <div className={`bg-primary pt-3 pb-5`}>
+    <Footer />
+    </div>
+ 
 
 
   </>
