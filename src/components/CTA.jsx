@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../style'
 import Button from './Button'
  const CTA =()=>(
-    <section  className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flexcol bg-black-gradient-2 rounded-[20px] box-shodow`}>
+    <section  className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flexcol bg-black-gradient-2 rounded-[20px] box-shodow md:mb-80 `}>
       <div className={`${styles.heading2}`}>
          <h2>Let`s try our service now!</h2>
          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

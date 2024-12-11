@@ -52,9 +52,11 @@ const App = () => (
     <div className={`bg-primary pb-8 `}>
     <Clients />
     </div>
-   
+    <div className={`bg-primary pt-3 pb-5`}>
     <CTA />
-    <Footer />
+    </div>
+ 
+
 
 
   </>
